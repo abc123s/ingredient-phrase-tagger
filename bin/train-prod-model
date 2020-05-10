@@ -14,6 +14,10 @@ set -x
 
 export LABELLED_DATA_FILE=nyt-ingredients-snapshot-2015.csv
 export TRAINING_DATA_PERCENT=0.9
+
+# modify this line if you wish to use a subset of the data
+# export LABELLED_EXAMPLE_COUNT=1000
+
 if [ -z "$1" ];
   then echo "Usage: train-prod-model output_dir" && exit 1;
 fi
