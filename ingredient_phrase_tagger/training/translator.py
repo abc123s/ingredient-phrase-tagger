@@ -4,7 +4,6 @@ import re
 import tokenizer
 import utils
 
-
 def translate_row(row):
     """Translates a row of labeled data into CRF++-compatible tag strings.
 
@@ -99,7 +98,7 @@ def _matchUp(token, labels):
         label_value = labels[label_key]
         if isinstance(label_value, basestring):
             for n, vt in enumerate(tokenizer.tokenize(label_value)):
-                if utils.normalizeToken(vt) == token:
+                if utils.normalizeToken(vt).decode('utf-8') == token:
                     ret.append(label_key.upper())
 
         elif decimalToken is not None:

@@ -1,0 +1,9 @@
+# of sentences:
+179207
+
+# of tokens:
+1102763
+
+# of tags:
+{'COMMENT': 352542, 'RANGE_END': 1864, 'NAME': 327465, 'QTY': 150438, 'OTHER': 149804, 'UNIT': 120650}
+
