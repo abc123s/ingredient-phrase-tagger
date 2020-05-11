@@ -1,0 +1,10 @@
+
+Sentence-Level Stats:
+	correct:  3284
+	total:  4997
+	% correct:  65.719431659
+
+Word-Level Stats:
+	correct: 24180
+	total: 28711
+	% correct: 84.2185921772
