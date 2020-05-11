@@ -1,3 +1,6 @@
+# CS 230 Final Project Baseline
+Simple baseline model for structured data extraction from recipe ingredient lists.
+
 # CRF Ingredient Phrase Tagger
 
 [![Build Status](https://travis-ci.org/mtlynch/ingredient-phrase-tagger.svg?branch=master)](https://travis-ci.org/mtlynch/ingredient-phrase-tagger) [![Docker Pulls](https://img.shields.io/docker/pulls/mtlynch/ingredient-phrase-tagger.svg?maxAge=604800)](https://hub.docker.com/r/mtlynch/ingredient-phrase-tagger/) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE.md)
